@@ -1,6 +1,6 @@
 
 from telegram.ext import ApplicationBuilder, CommandHandler
-from mind_wallet_bot.config import BOT_TOKEN
+from config import BOT_TOKEN
 from mind_wallet_bot.handlers.wallet import wallet_handler
 from mind_wallet_bot.handlers.balance import balance_handler
 
