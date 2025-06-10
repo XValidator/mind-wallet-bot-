@@ -1,4 +1,3 @@
-
 from telegram import Update
 from telegram.ext import CallbackContext
 from eth_account import Account
