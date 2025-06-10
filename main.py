@@ -1,8 +1,7 @@
-
 from telegram.ext import ApplicationBuilder, CommandHandler
 from config import BOT_TOKEN
-from mind_wallet_bot.handlers.wallet import wallet_handler
-from mind_wallet_bot.handlers.balance import balance_handler
+from wallet import wallet_handler
+from balance import balance_handler
 
 app = ApplicationBuilder().token(BOT_TOKEN).build()
 
