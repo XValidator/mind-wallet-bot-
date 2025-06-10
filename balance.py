@@ -1,7 +1,6 @@
-
 from web3 import Web3
-from mind_wallet_bot.config import BSC_RPC, MIND_CONTRACT, MIND_DECIMALS, MIND_SYMBOL
-from mind_wallet_bot.services.web3_utils import get_web3
+from config import BSC_RPC, MIND_CONTRACT, MIND_DECIMALS, MIND_SYMBOL
+from web3_utils import get_web3
 from telegram import Update
 from telegram.ext import CallbackContext
 
